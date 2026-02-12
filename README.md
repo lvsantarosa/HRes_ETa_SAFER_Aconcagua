@@ -1,8 +1,6 @@
 # High-resolution evapotranspiration dataset for the Aconcagua river basin
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18603159.svg)](https://doi.org/10.5281/zenodo.18603159)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Google Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-Python-green)](https://earthengine.google.com/)
 
 **Authors:**
 * **Lucas Vituri Santarosa** (Pontificia Universidad Católica de Valparaíso - PUCV)
