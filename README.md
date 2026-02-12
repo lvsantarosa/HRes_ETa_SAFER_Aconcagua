@@ -13,9 +13,10 @@
 We present an automated, cloud-based framework (Google Earth Engine) to estimate **Actual Evapotranspiration ($ET_{a}$)** at high spatial resolution (30 m) in the Aconcagua River Basin, Chile. The model integrates **Landsat 8/9** imagery with **ERA5-Land** meteorological reanalysis data to overcome the scarcity of ground-based telemetry stations.
 
 ### Key Highlights
-* **High Resolution:** 30-meter mapping allows for the differentiation of water consumption among specific orchard types (e.g., Avocado vs. Table Grapes).
-* **ERA5-Land Integration:** Utilizes global reanalysis data to substitute local meteorological stations, maintaining high correlation ($R^2 > 0.80$) with observed data.
-* **Stable Calibration:** Implementation of a fixed-coefficient strategy, statistically robust and temporally consistent, which outperformed traditional dynamic calibration methods.
+*	Stable calibration strategy ensures temporal consistency for basin-scale evapotranspiration estimation
+*	Remote sensing data integration enabling automated cloud-based evapotranspiration monitoring
+*	High-resolution mapping exposes the basin-scale structural decoupling between supply and demand. 
+
 
 ---
 
