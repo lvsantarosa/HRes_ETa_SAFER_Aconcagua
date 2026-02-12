@@ -10,7 +10,7 @@
 
 ## Overview
 
-This repository contains the source code and operational workflow developed for the study **"An operational satellite-based framework for high-resolution evapotranspiration monitoring in data-scarce Mediterranean basins"**.
+This repository contains the source code and operational workflow developed for the study **"High-resolution evapotranspiration data for basin monitoring and agricultural water stress assessment in the Aconcagua River"**.
 
 We present an automated, cloud-based framework (Google Earth Engine) to estimate **Actual Evapotranspiration ($ET_{act}$)** at high spatial resolution (30 m) in the Aconcagua River Basin, Chile. [cite_start]The model integrates **Landsat 8/9** imagery with **ERA5-Land** meteorological reanalysis data to overcome the scarcity of ground-based telemetry stations.
 
