@@ -1,0 +1,38 @@
+{
+  "title": "High-resolution evapotranspiration dataset for the Aconcagua River Basin (SAFER / Landsat / ERA5-Land)",
+  "description": "<p>Automated, cloud-based framework implemented in Google Earth Engine to estimate actual evapotranspiration (ET<sub>a</sub>) at 30 m spatial resolution over the Aconcagua River Basin, Chile.</p><p>The workflow applies the SAFER (Simple Algorithm for Evapotranspiration Retrieving) algorithm with fixed, historically calibrated coefficients (a = 0.3684, b = -0.0012, derived from a 10-year analysis, 2014-2024) to Landsat 8/9 Collection 2 Level-2 surface reflectance and surface temperature, combined with daily reference evapotranspiration (ET<sub>0</sub>, FAO-56 Penman-Monteith) computed from ERA5-Land reanalysis. A monthly-median gap-filling strategy preserves temporal continuity in cloud-affected periods. Outputs are daily, monthly and annual ET<sub>a</sub> rasters (mm) at 30 m.</p><p>This repository contains the source code supporting the article \"An operational satellite-based framework for high-resolution evapotranspiration monitoring in data-scarce Mediterranean basins\".</p>",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "version": "0.1.0",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Santarosa, Lucas Vituri",
+      "affiliation": "Water Resources and Geotechnology Laboratory, Pontificia Universidad Catolica de Valparaiso (PUCV), Valparaiso, Chile"
+    },
+    {
+      "name": "Silva, Cesar de Oliveira Ferreira",
+      "affiliation": "Universidade Estadual Paulista (UNESP), Botucatu, Brazil"
+    }
+  ],
+  "keywords": [
+    "evapotranspiration",
+    "SAFER",
+    "Google Earth Engine",
+    "Landsat 8/9",
+    "ERA5-Land",
+    "remote sensing",
+    "water resources",
+    "Aconcagua River Basin",
+    "Chile",
+    "Mediterranean climate"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/lvsantarosa/HRes_ETa_SAFER_Aconcagua",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
