@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite both the software (Zenodo DOI) and the associated article."
+title: "High-resolution evapotranspiration dataset for the Aconcagua River Basin (SAFER / Landsat / ERA5-Land)"
+abstract: >-
+  Automated, cloud-based framework implemented in Google Earth Engine to estimate
+  actual evapotranspiration (ETa) at 30 m spatial resolution over the Aconcagua
+  River Basin, Chile. The workflow applies the SAFER (Simple Algorithm for
+  Evapotranspiration Retrieving) algorithm with fixed, historically calibrated
+  coefficients to Landsat 8/9 Collection 2 Level-2 surface reflectance and surface
+  temperature, combined with ERA5-Land daily reference evapotranspiration
+  (Penman-Monteith), and includes a gap-filling strategy for cloud-affected months.
+type: software
+authors:
+  - given-names: Lucas
+    name-particle: Vituri
+    family-names: Santarosa
+    email: lucasviturisantarosa@gmail.com
+    affiliation: "Water Resources and Geotechnology Laboratory, Pontificia Universidad Catolica de Valparaiso (PUCV), Valparaiso, Chile"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: add your ORCID
+  - given-names: Cesar
+    name-particle: de Oliveira Ferreira
+    family-names: Silva
+    affiliation: "Universidade Estadual Paulista (UNESP), Botucatu, Brazil"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: add co-author ORCID
+keywords:
+  - evapotranspiration
+  - SAFER
+  - Google Earth Engine
+  - Landsat
+  - ERA5-Land
+  - remote sensing
+  - water resources
+  - Aconcagua River Basin
+  - Chile
+  - Mediterranean climate
+license: MIT
+repository-code: "https://github.com/lvsantarosa/HRes_ETa_SAFER_Aconcagua"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.18603159
+    description: "Concept DOI (always resolves to the latest version)"
+version: 0.1.0
+date-released: "2026-02-01"
