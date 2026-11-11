@@ -46,10 +46,15 @@ keywords:
   - Mediterranean climate
 identifiers:
   - type: doi
+    value: 10.5281/zenodo.18603158
+    description: >-
+      Zenodo concept DOI of the accompanying ETa dataset, which this code
+      generates. Always resolves to the latest version; cite this one.
+  - type: doi
     value: 10.5281/zenodo.18603159
     description: >-
-      Zenodo concept DOI of the accompanying ETa dataset (2014-2024), which this
-      code generates. Always resolves to the latest version.
+      Zenodo version DOI of the ETa dataset v0.1.0 (daily 2022-2024; monthly and
+      annual 2014-2024).
 references:
   - type: data
     title: "High-resolution actual evapotranspiration dataset for the Aconcagua River Basin, Chile (SAFER / Landsat / ERA5-Land, 2014-2024)"
@@ -62,10 +67,9 @@ references:
         family-names: Silva
         orcid: "https://orcid.org/0000-0002-5152-6497"
     year: 2026
-    version: 0.1.0
     publisher:
       name: Zenodo
-    doi: 10.5281/zenodo.18603159
+    doi: 10.5281/zenodo.18603158
     license: CC-BY-4.0
 preferred-citation:
   type: article

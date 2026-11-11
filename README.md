@@ -1,6 +1,6 @@
 # High-resolution evapotranspiration dataset for the Aconcagua river basin
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18603159.svg)](https://doi.org/10.5281/zenodo.18603159)
+[![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18603158.svg)](https://doi.org/10.5281/zenodo.18603158)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lvsantarosa/HRes_ETa_SAFER_Aconcagua/blob/main/SAFER_ACONCAGUA_DEMO_0_1.ipynb)
 
@@ -110,7 +110,7 @@ This work comprises three citable objects. Please cite the **article**, and also
 
 **2. ET<sub>a</sub> dataset (Zenodo, CC BY 4.0)**
 
-> Vituri Santarosa, L., & Silva, C. O. F. (2026). *High-resolution actual evapotranspiration dataset for the Aconcagua River Basin, Chile (SAFER / Landsat / ERA5-Land, 2014–2024)* (Version 0.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18603159
+> Vituri Santarosa, L., & Silva, C. O. F. (2026). *High-resolution actual evapotranspiration dataset for the Aconcagua River Basin, Chile (SAFER / Landsat / ERA5-Land, 2014–2024)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18603158
 
 **3. Source code (this repository, MIT)**
 
@@ -122,7 +122,9 @@ BibTeX entries for all three are provided in [`CITATION.bib`](CITATION.bib) — 
 
 ## Data and code availability
 
-The ET<sub>a</sub> dataset (daily 2022–2024; monthly and annual 2014–2024; 30 m GeoTIFF) is archived on Zenodo under CC BY 4.0 at https://doi.org/10.5281/zenodo.18603159. The Google Earth Engine workflow that generated it is openly available in this repository under the MIT licence.
+The ET<sub>a</sub> dataset (daily 2022–2024; monthly and annual 2014–2024; 30 m GeoTIFF) is archived on Zenodo under CC BY 4.0 at https://doi.org/10.5281/zenodo.18603158. The Google Earth Engine workflow that generated it is openly available in this repository under the MIT licence.
+
+**Which DOI to cite.** https://doi.org/10.5281/zenodo.18603158 is the *concept* DOI: it always resolves to the most recent version of the dataset, and is the one to cite in publications. https://doi.org/10.5281/zenodo.18603159 is the *version* DOI of v0.1.0 specifically; cite it only when a result must be tied to that exact release. Reprocessed data are published as new versions, which receive their own version DOI while the concept DOI follows the latest.
 
 ---
 
