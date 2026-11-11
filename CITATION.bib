@@ -1,26 +1,55 @@
-% Software / dataset (Zenodo). Import this file directly into Zotero:
+% Citation entries for this work. Import this file directly into Zotero:
 %   File > Import...  (or drag CITATION.bib into your Zotero library)
+%
+% Three distinct objects:
+%   1. the peer-reviewed article            -> santarosa_structural_water_stress_2026
+%   2. the ETa dataset archived on Zenodo   -> santarosa_eta_aconcagua_dataset_2026
+%   3. the Google Earth Engine source code  -> santarosa_safer_aconcagua_code_2026
+% Please cite the article and, where the data or code are used directly, the
+% corresponding dataset or software entry.
 
-@software{santarosa_safer_aconcagua_2026,
-  author    = {Santarosa, Lucas Vituri and Silva, Cesar de Oliveira Ferreira},
-  title     = {High-resolution evapotranspiration dataset for the Aconcagua
-               River Basin ({SAFER} / {Landsat} / {ERA5-Land})},
-  year      = {2026},
-  version   = {0.1.0},
-  publisher = {Zenodo},
-  doi       = {10.5281/zenodo.18603159},
-  url       = {https://doi.org/10.5281/zenodo.18603159},
-  note      = {Source code: https://github.com/lvsantarosa/HRes\_ETa\_SAFER\_Aconcagua}
-}
-
-% Associated article. Accepted for publication; add volume, pages and DOI when
-% the final version of record is online.
+% ---------------------------------------------------------------------------
+% 1. Peer-reviewed article.
+%    Accepted for publication; add volume, pages and DOI when the version of
+%    record is online.
+% ---------------------------------------------------------------------------
 @article{santarosa_structural_water_stress_2026,
-  author  = {Santarosa, Lucas Vituri and Silva, Cesar de Oliveira Ferreira},
+  author  = {Vituri Santarosa, Lucas and Silva, Cesar de Oliveira Ferreira},
   title   = {Assessment of structural water stress in semi-arid agricultural
              basins using high-resolution evapotranspiration mapping},
   journal = {Ecohydrology \& Hydrobiology},
   year    = {2026},
   note    = {In press. Accepted manuscript (ECOHYD-D-26-00096R1);
              volume, pages and DOI pending.}
+}
+
+% ---------------------------------------------------------------------------
+% 2. ETa dataset (Zenodo). CC BY 4.0.
+% ---------------------------------------------------------------------------
+@dataset{santarosa_eta_aconcagua_dataset_2026,
+  author    = {Vituri Santarosa, Lucas and Silva, Cesar de Oliveira Ferreira},
+  title     = {High-resolution actual evapotranspiration dataset for the
+               Aconcagua River Basin, Chile ({SAFER} / {Landsat} /
+               {ERA5-Land}, 2014--2024)},
+  year      = {2026},
+  version   = {0.1.0},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.18603159},
+  url       = {https://doi.org/10.5281/zenodo.18603159},
+  note      = {Concept DOI; always resolves to the latest version}
+}
+
+% ---------------------------------------------------------------------------
+% 3. Google Earth Engine source code (GitHub). MIT licence.
+%    A software DOI can be minted by creating a GitHub release with the
+%    Zenodo-GitHub integration enabled; add it here when available.
+% ---------------------------------------------------------------------------
+@software{santarosa_safer_aconcagua_code_2026,
+  author  = {Vituri Santarosa, Lucas and Silva, Cesar de Oliveira Ferreira},
+  title   = {{HRes\_ETa\_SAFER\_Aconcagua}: a {Google} {Earth} {Engine}
+             workflow for high-resolution {SAFER} evapotranspiration mapping},
+  year    = {2026},
+  version = {0.1.0},
+  url     = {https://github.com/lvsantarosa/HRes_ETa_SAFER_Aconcagua},
+  note    = {MIT licence}
 }

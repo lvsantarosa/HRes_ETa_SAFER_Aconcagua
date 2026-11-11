@@ -1,6 +1,9 @@
 cff-version: 1.2.0
-message: "If you use this software or dataset, please cite both the software (Zenodo DOI) and the associated article."
-title: "High-resolution evapotranspiration dataset for the Aconcagua River Basin (SAFER / Landsat / ERA5-Land)"
+message: >-
+  If you use this work, please cite the associated article. Where the data or the
+  code are used directly, please also cite the Zenodo dataset (DOI below) and
+  this software repository.
+title: "HRes_ETa_SAFER_Aconcagua: a Google Earth Engine workflow for high-resolution SAFER evapotranspiration mapping"
 abstract: >-
   Automated, cloud-based framework implemented in Google Earth Engine to estimate
   actual evapotranspiration (ETa) at 30 m spatial resolution over the Aconcagua
@@ -8,17 +11,20 @@ abstract: >-
   Evapotranspiration Retrieving) algorithm with fixed, historically calibrated
   coefficients to Landsat 8/9 Collection 2 Level-2 surface reflectance and surface
   temperature, combined with ERA5-Land daily reference evapotranspiration
-  (Penman-Monteith), and includes a gap-filling strategy for cloud-affected months.
-  The resulting high-resolution maps support the assessment of structural water
-  stress in semi-arid agricultural basins.
+  (FAO-56 Penman-Monteith), and includes a gap-filling strategy for
+  cloud-affected months. The resulting high-resolution maps support the
+  assessment of structural water stress in semi-arid agricultural basins.
 type: software
+license: MIT
+repository-code: "https://github.com/lvsantarosa/HRes_ETa_SAFER_Aconcagua"
+version: 0.1.0
+date-released: "2026-11-11"
 authors:
   - given-names: Lucas
-    name-particle: Vituri
-    family-names: Santarosa
+    family-names: Vituri Santarosa
     email: lucasviturisantarosa@gmail.com
     affiliation: "Water Resources and Geotechnology Laboratory, Pontificia Universidad Catolica de Valparaiso (PUCV), Valparaiso, Chile"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: add your ORCID
+    orcid: "https://orcid.org/0000-0001-7180-7715"
   - given-names: Cesar
     name-particle: de Oliveira Ferreira
     family-names: Silva
@@ -38,22 +44,36 @@ keywords:
   - Aconcagua River Basin
   - Chile
   - Mediterranean climate
-license: MIT
-repository-code: "https://github.com/lvsantarosa/HRes_ETa_SAFER_Aconcagua"
 identifiers:
   - type: doi
     value: 10.5281/zenodo.18603159
-    description: "Concept DOI (always resolves to the latest version)"
-version: 0.1.0
-date-released: "2026-02-01"
+    description: >-
+      Zenodo concept DOI of the accompanying ETa dataset (2014-2024), which this
+      code generates. Always resolves to the latest version.
+references:
+  - type: data
+    title: "High-resolution actual evapotranspiration dataset for the Aconcagua River Basin, Chile (SAFER / Landsat / ERA5-Land, 2014-2024)"
+    authors:
+      - given-names: Lucas
+        family-names: Vituri Santarosa
+        orcid: "https://orcid.org/0000-0001-7180-7715"
+      - given-names: Cesar
+        name-particle: de Oliveira Ferreira
+        family-names: Silva
+    year: 2026
+    version: 0.1.0
+    publisher:
+      name: Zenodo
+    doi: 10.5281/zenodo.18603159
+    license: CC-BY-4.0
 preferred-citation:
   type: article
   title: "Assessment of structural water stress in semi-arid agricultural basins using high-resolution evapotranspiration mapping"
   authors:
     - given-names: Lucas
-      name-particle: Vituri
-      family-names: Santarosa
+      family-names: Vituri Santarosa
       affiliation: "Water Resources and Geotechnology Laboratory, Pontificia Universidad Catolica de Valparaiso (PUCV), Valparaiso, Chile"
+      orcid: "https://orcid.org/0000-0001-7180-7715"
     - given-names: Cesar
       name-particle: de Oliveira Ferreira
       family-names: Silva

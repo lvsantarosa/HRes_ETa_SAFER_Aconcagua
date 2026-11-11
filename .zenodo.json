@@ -1,5 +1,5 @@
 {
-  "title": "High-resolution evapotranspiration dataset for the Aconcagua River Basin (SAFER / Landsat / ERA5-Land)",
+  "title": "HRes_ETa_SAFER_Aconcagua: a Google Earth Engine workflow for high-resolution SAFER evapotranspiration mapping",
   "description": "<p>Automated, cloud-based framework implemented in Google Earth Engine to estimate actual evapotranspiration (ET<sub>a</sub>) at 30 m spatial resolution over the Aconcagua River Basin, Chile.</p><p>The workflow applies the SAFER (Simple Algorithm for Evapotranspiration Retrieving) algorithm with fixed, historically calibrated coefficients (a = 0.3684, b = -0.0012, derived from a 10-year analysis, 2014-2024) to Landsat 8/9 Collection 2 Level-2 surface reflectance and surface temperature, combined with daily reference evapotranspiration (ET<sub>0</sub>, FAO-56 Penman-Monteith) computed from ERA5-Land reanalysis. A monthly-median gap-filling strategy preserves temporal continuity in cloud-affected periods. Outputs are daily, monthly and annual ET<sub>a</sub> rasters (mm) at 30 m. The resulting maps are used to assess structural water stress in a semi-arid agricultural basin by contrasting high-resolution water demand against available supply.</p><p>This repository contains the source code supporting the article \"Assessment of structural water stress in semi-arid agricultural basins using high-resolution evapotranspiration mapping\", accepted for publication in <em>Ecohydrology &amp; Hydrobiology</em> (2026).</p>",
   "upload_type": "software",
   "license": "MIT",
@@ -8,8 +8,9 @@
   "language": "eng",
   "creators": [
     {
-      "name": "Santarosa, Lucas Vituri",
-      "affiliation": "Water Resources and Geotechnology Laboratory, Pontificia Universidad Catolica de Valparaiso (PUCV), Valparaiso, Chile"
+      "name": "Vituri Santarosa, Lucas",
+      "affiliation": "Water Resources and Geotechnology Laboratory, Pontificia Universidad Catolica de Valparaiso (PUCV), Valparaiso, Chile",
+      "orcid": "0000-0001-7180-7715"
     },
     {
       "name": "Silva, Cesar de Oliveira Ferreira",
@@ -36,6 +37,12 @@
       "identifier": "https://github.com/lvsantarosa/HRes_ETa_SAFER_Aconcagua",
       "relation": "isSupplementTo",
       "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.18603159",
+      "relation": "isSourceOf",
+      "scheme": "doi",
+      "resource_type": "dataset"
     }
   ]
 }

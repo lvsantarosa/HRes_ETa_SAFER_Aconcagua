@@ -5,7 +5,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lvsantarosa/HRes_ETa_SAFER_Aconcagua/blob/main/SAFER_ACONCAGUA_DEMO_0_1.ipynb)
 
 **Authors:**
-* **Lucas Vituri Santarosa** (Pontificia Universidad Católica de Valparaíso - PUCV)
+* **Lucas Vituri Santarosa** (Pontificia Universidad Católica de Valparaíso – PUCV) · [ORCID 0000-0001-7180-7715](https://orcid.org/0000-0001-7180-7715)
 * **Cesar de Oliveira Ferreira Silva** (Universidade Estadual Paulista - UNESP)
 
 ---
@@ -63,8 +63,8 @@ Clouds are masked using the Landsat `QA_PIXEL` band (dilated cloud, cloud, cloud
 | `SAFER_ACONCAGUA_DEMO_0_1.ipynb` | Main notebook: parameters, pre-processing, SAFER processing, export and visualization |
 | `requirements.txt` | Python dependencies |
 | `CITATION.cff` | Machine-readable citation metadata (GitHub "Cite this repository") |
-| `CITATION.bib` | BibTeX entries, ready to import into Zotero/Mendeley |
-| `.zenodo.json` | Metadata used by Zenodo when archiving a release |
+| `CITATION.bib` | BibTeX entries for the article, the dataset and the code, ready to import into Zotero/Mendeley |
+| `.zenodo.json` | Metadata Zenodo reads if this repository is archived as a software release |
 | `LICENSE` | MIT license |
 
 ---
@@ -98,17 +98,27 @@ All rasters are 32-bit float, 30 m, clipped to the basin boundary, in the Landsa
 
 ## How to cite
 
-Please cite **both** the software/dataset and the associated article.
+This work comprises three citable objects. Please cite the **article**, and also the **dataset** or the **code** where you use them directly.
 
-**Software / dataset (Zenodo):**
+**1. Peer-reviewed article**
 
-> Santarosa, L. V., & Silva, C. O. F. (2026). *High-resolution evapotranspiration dataset for the Aconcagua River Basin (SAFER / Landsat / ERA5-Land)* (Version 0.1.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.18603159
+> Vituri Santarosa, L., & Silva, C. O. F. (2026). Assessment of structural water stress in semi-arid agricultural basins using high-resolution evapotranspiration mapping. *Ecohydrology & Hydrobiology*. (In press; volume, pages and DOI to be added on publication.)
 
-**Associated article:**
+**2. ET<sub>a</sub> dataset (Zenodo, CC BY 4.0)**
 
-> Santarosa, L. V., & Silva, C. O. F. (2026). Assessment of structural water stress in semi-arid agricultural basins using high-resolution evapotranspiration mapping. *Ecohydrology & Hydrobiology*. (In press; volume, pages and DOI to be added on publication.)
+> Vituri Santarosa, L., & Silva, C. O. F. (2026). *High-resolution actual evapotranspiration dataset for the Aconcagua River Basin, Chile (SAFER / Landsat / ERA5-Land, 2014–2024)* (Version 0.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18603159
 
-BibTeX entries for both are provided in [`CITATION.bib`](CITATION.bib) — download the file and use **File → Import…** in Zotero, or drag it into your library. GitHub's *Cite this repository* button (powered by [`CITATION.cff`](CITATION.cff)) also exports APA and BibTeX directly.
+**3. Source code (this repository, MIT)**
+
+> Vituri Santarosa, L., & Silva, C. O. F. (2026). *HRes_ETa_SAFER_Aconcagua: a Google Earth Engine workflow for high-resolution SAFER evapotranspiration mapping* (Version 0.1.0) [Software]. https://github.com/lvsantarosa/HRes_ETa_SAFER_Aconcagua
+
+BibTeX entries for all three are provided in [`CITATION.bib`](CITATION.bib) — download the file and use **File → Import…** in Zotero, or drag it into your library. GitHub's *Cite this repository* button (powered by [`CITATION.cff`](CITATION.cff)) also exports APA and BibTeX directly.
+
+---
+
+## Data and code availability
+
+The ET<sub>a</sub> dataset (daily 2022–2024; monthly and annual 2014–2024; 30 m GeoTIFF) is archived on Zenodo under CC BY 4.0 at https://doi.org/10.5281/zenodo.18603159. The Google Earth Engine workflow that generated it is openly available in this repository under the MIT licence.
 
 ---
 
