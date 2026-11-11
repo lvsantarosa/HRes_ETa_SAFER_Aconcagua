@@ -5,8 +5,12 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lvsantarosa/HRes_ETa_SAFER_Aconcagua/blob/main/SAFER_ACONCAGUA_DEMO_0_1.ipynb)
 
 **Authors:**
-* **Lucas Vituri Santarosa** (Pontificia Universidad Católica de Valparaíso – PUCV) · [ORCID 0000-0001-7180-7715](https://orcid.org/0000-0001-7180-7715)
-* **Cesar de Oliveira Ferreira Silva** (Universidade Estadual Paulista - UNESP)
+* **Lucas Vituri Santarosa** <sup>1,\*</sup> · [ORCID 0000-0001-7180-7715](https://orcid.org/0000-0001-7180-7715)
+* **Cesar de Oliveira Ferreira Silva** <sup>2</sup> · [ORCID 0000-0002-5152-6497](https://orcid.org/0000-0002-5152-6497)
+
+<sup>1</sup> Escuela de Agronomía, Facultad de Ciencias Agronómicas y de los Alimentos, Pontificia Universidad Católica de Valparaíso, Quillota, Chile
+<sup>2</sup> Centro de Estudos Ambientais (CEA), Universidade Estadual Paulista (UNESP), Rio Claro, São Paulo, Brazil
+<sup>\*</sup> Corresponding author: lucas.vituri@pucv.cl
 
 ---
 
@@ -17,9 +21,9 @@ This repository contains the source code and operational workflow developed for 
 We present an automated, cloud-based framework (Google Earth Engine) to estimate **Actual Evapotranspiration ($ET_{a}$)** at high spatial resolution (30 m) in the Aconcagua River Basin, Chile. The model integrates **Landsat 8/9** imagery with **ERA5-Land** meteorological reanalysis data to overcome the scarcity of ground-based telemetry stations.
 
 ### Key Highlights
-*	Stable calibration strategy ensures temporal consistency for basin-scale evapotranspiration estimation
-*	Remote sensing data integration enabling automated cloud-based evapotranspiration monitoring
-*	High-resolution mapping exposes the basin-scale structural decoupling between supply and demand.
+* Stable calibration ensures temporal consistency for basin-scale ET estimation.
+* Automated cloud-based workflow enables high-resolution ET monitoring.
+* Spatial mapping exposes the structural decoupling between supply and demand.
 
 ---
 
@@ -137,4 +141,4 @@ Released under the [MIT License](LICENSE). Landsat and ERA5-Land source data rem
 
 ## Contact
 
-Lucas Vituri Santarosa — Water Resources and Geotechnology Laboratory, Pontificia Universidad Católica de Valparaíso (PUCV).
+Lucas Vituri Santarosa — Escuela de Agronomía, Facultad de Ciencias Agronómicas y de los Alimentos, Pontificia Universidad Católica de Valparaíso, Quillota, Chile · lucas.vituri@pucv.cl

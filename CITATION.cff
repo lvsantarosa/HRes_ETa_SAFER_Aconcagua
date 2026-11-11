@@ -22,14 +22,14 @@ date-released: "2026-11-11"
 authors:
   - given-names: Lucas
     family-names: Vituri Santarosa
-    email: lucasviturisantarosa@gmail.com
-    affiliation: "Water Resources and Geotechnology Laboratory, Pontificia Universidad Catolica de Valparaiso (PUCV), Valparaiso, Chile"
+    email: lucas.vituri@pucv.cl
+    affiliation: "Escuela de Agronomía, Facultad de Ciencias Agronómicas y de los Alimentos, Pontificia Universidad Católica de Valparaíso, Quillota, Chile"
     orcid: "https://orcid.org/0000-0001-7180-7715"
   - given-names: Cesar
     name-particle: de Oliveira Ferreira
     family-names: Silva
-    affiliation: "Universidade Estadual Paulista (UNESP), Botucatu, Brazil"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: add co-author ORCID
+    affiliation: "Centro de Estudos Ambientais (CEA), Universidade Estadual Paulista (UNESP), Rio Claro, São Paulo, Brazil"
+    orcid: "https://orcid.org/0000-0002-5152-6497"
 keywords:
   - evapotranspiration
   - SAFER
@@ -60,6 +60,7 @@ references:
       - given-names: Cesar
         name-particle: de Oliveira Ferreira
         family-names: Silva
+        orcid: "https://orcid.org/0000-0002-5152-6497"
     year: 2026
     version: 0.1.0
     publisher:
@@ -72,12 +73,13 @@ preferred-citation:
   authors:
     - given-names: Lucas
       family-names: Vituri Santarosa
-      affiliation: "Water Resources and Geotechnology Laboratory, Pontificia Universidad Catolica de Valparaiso (PUCV), Valparaiso, Chile"
+      affiliation: "Escuela de Agronomía, Facultad de Ciencias Agronómicas y de los Alimentos, Pontificia Universidad Católica de Valparaíso, Quillota, Chile"
       orcid: "https://orcid.org/0000-0001-7180-7715"
     - given-names: Cesar
       name-particle: de Oliveira Ferreira
       family-names: Silva
-      affiliation: "Universidade Estadual Paulista (UNESP), Botucatu, Brazil"
+      affiliation: "Centro de Estudos Ambientais (CEA), Universidade Estadual Paulista (UNESP), Rio Claro, São Paulo, Brazil"
+      orcid: "https://orcid.org/0000-0002-5152-6497"
   journal: "Ecohydrology & Hydrobiology"
   year: 2026
   notes: "In press. Accepted manuscript (ECOHYD-D-26-00096R1); volume, pages and DOI pending."
