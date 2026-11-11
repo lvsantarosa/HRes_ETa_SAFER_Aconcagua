@@ -9,6 +9,8 @@ abstract: >-
   coefficients to Landsat 8/9 Collection 2 Level-2 surface reflectance and surface
   temperature, combined with ERA5-Land daily reference evapotranspiration
   (Penman-Monteith), and includes a gap-filling strategy for cloud-affected months.
+  The resulting high-resolution maps support the assessment of structural water
+  stress in semi-arid agricultural basins.
 type: software
 authors:
   - given-names: Lucas
@@ -30,6 +32,9 @@ keywords:
   - ERA5-Land
   - remote sensing
   - water resources
+  - structural water stress
+  - semi-arid basins
+  - irrigated agriculture
   - Aconcagua River Basin
   - Chile
   - Mediterranean climate
@@ -41,3 +46,18 @@ identifiers:
     description: "Concept DOI (always resolves to the latest version)"
 version: 0.1.0
 date-released: "2026-02-01"
+preferred-citation:
+  type: article
+  title: "Assessment of structural water stress in semi-arid agricultural basins using high-resolution evapotranspiration mapping"
+  authors:
+    - given-names: Lucas
+      name-particle: Vituri
+      family-names: Santarosa
+      affiliation: "Water Resources and Geotechnology Laboratory, Pontificia Universidad Catolica de Valparaiso (PUCV), Valparaiso, Chile"
+    - given-names: Cesar
+      name-particle: de Oliveira Ferreira
+      family-names: Silva
+      affiliation: "Universidade Estadual Paulista (UNESP), Botucatu, Brazil"
+  journal: "Ecohydrology & Hydrobiology"
+  year: 2026
+  notes: "In press. Accepted manuscript (ECOHYD-D-26-00096R1); volume, pages and DOI pending."

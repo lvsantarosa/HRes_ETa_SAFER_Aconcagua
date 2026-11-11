@@ -1,6 +1,6 @@
 {
   "title": "High-resolution evapotranspiration dataset for the Aconcagua River Basin (SAFER / Landsat / ERA5-Land)",
-  "description": "<p>Automated, cloud-based framework implemented in Google Earth Engine to estimate actual evapotranspiration (ET<sub>a</sub>) at 30 m spatial resolution over the Aconcagua River Basin, Chile.</p><p>The workflow applies the SAFER (Simple Algorithm for Evapotranspiration Retrieving) algorithm with fixed, historically calibrated coefficients (a = 0.3684, b = -0.0012, derived from a 10-year analysis, 2014-2024) to Landsat 8/9 Collection 2 Level-2 surface reflectance and surface temperature, combined with daily reference evapotranspiration (ET<sub>0</sub>, FAO-56 Penman-Monteith) computed from ERA5-Land reanalysis. A monthly-median gap-filling strategy preserves temporal continuity in cloud-affected periods. Outputs are daily, monthly and annual ET<sub>a</sub> rasters (mm) at 30 m.</p><p>This repository contains the source code supporting the article \"An operational satellite-based framework for high-resolution evapotranspiration monitoring in data-scarce Mediterranean basins\".</p>",
+  "description": "<p>Automated, cloud-based framework implemented in Google Earth Engine to estimate actual evapotranspiration (ET<sub>a</sub>) at 30 m spatial resolution over the Aconcagua River Basin, Chile.</p><p>The workflow applies the SAFER (Simple Algorithm for Evapotranspiration Retrieving) algorithm with fixed, historically calibrated coefficients (a = 0.3684, b = -0.0012, derived from a 10-year analysis, 2014-2024) to Landsat 8/9 Collection 2 Level-2 surface reflectance and surface temperature, combined with daily reference evapotranspiration (ET<sub>0</sub>, FAO-56 Penman-Monteith) computed from ERA5-Land reanalysis. A monthly-median gap-filling strategy preserves temporal continuity in cloud-affected periods. Outputs are daily, monthly and annual ET<sub>a</sub> rasters (mm) at 30 m. The resulting maps are used to assess structural water stress in a semi-arid agricultural basin by contrasting high-resolution water demand against available supply.</p><p>This repository contains the source code supporting the article \"Assessment of structural water stress in semi-arid agricultural basins using high-resolution evapotranspiration mapping\", accepted for publication in <em>Ecohydrology &amp; Hydrobiology</em> (2026).</p>",
   "upload_type": "software",
   "license": "MIT",
   "access_right": "open",
@@ -24,6 +24,9 @@
     "ERA5-Land",
     "remote sensing",
     "water resources",
+    "structural water stress",
+    "semi-arid basins",
+    "irrigated agriculture",
     "Aconcagua River Basin",
     "Chile",
     "Mediterranean climate"

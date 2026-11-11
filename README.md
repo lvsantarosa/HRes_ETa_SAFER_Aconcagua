@@ -12,7 +12,7 @@
 
 ## Overview
 
-This repository contains the source code and operational workflow developed for the study **"An operational satellite-based framework for high-resolution evapotranspiration monitoring in data-scarce Mediterranean basins"**.
+This repository contains the source code and operational workflow developed for the study **"Assessment of structural water stress in semi-arid agricultural basins using high-resolution evapotranspiration mapping"**, accepted for publication in *Ecohydrology & Hydrobiology* (2026).
 
 We present an automated, cloud-based framework (Google Earth Engine) to estimate **Actual Evapotranspiration ($ET_{a}$)** at high spatial resolution (30 m) in the Aconcagua River Basin, Chile. The model integrates **Landsat 8/9** imagery with **ERA5-Land** meteorological reanalysis data to overcome the scarcity of ground-based telemetry stations.
 
@@ -106,7 +106,7 @@ Please cite **both** the software/dataset and the associated article.
 
 **Associated article:**
 
-> Santarosa, L. V., & Silva, C. O. F. (2026). An operational satellite-based framework for high-resolution evapotranspiration monitoring in data-scarce Mediterranean basins. *Manuscript under review.*
+> Santarosa, L. V., & Silva, C. O. F. (2026). Assessment of structural water stress in semi-arid agricultural basins using high-resolution evapotranspiration mapping. *Ecohydrology & Hydrobiology*. (In press; volume, pages and DOI to be added on publication.)
 
 BibTeX entries for both are provided in [`CITATION.bib`](CITATION.bib) — download the file and use **File → Import…** in Zotero, or drag it into your library. GitHub's *Cite this repository* button (powered by [`CITATION.cff`](CITATION.cff)) also exports APA and BibTeX directly.
 
