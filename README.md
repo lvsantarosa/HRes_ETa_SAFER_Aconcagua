@@ -1,25 +1,30 @@
 # High-resolution evapotranspiration dataset for the Aconcagua river basin
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18603159.svg)](https://doi.org/10.5281/zenodo.18603159)
+[![Article](https://img.shields.io/badge/Article-10.1016%2Fj.ecohyd.2026.100843-B31B1B.svg)](https://doi.org/10.1016/j.ecohyd.2026.100843)
+[![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18603158.svg)](https://doi.org/10.5281/zenodo.18603158)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lvsantarosa/HRes_ETa_SAFER_Aconcagua/blob/main/SAFER_ACONCAGUA_DEMO_0_1.ipynb)
 
 **Authors:**
-* **Lucas Vituri Santarosa** (Pontificia Universidad Católica de Valparaíso - PUCV)
-* **Cesar de Oliveira Ferreira Silva** (Universidade Estadual Paulista - UNESP)
+* **Lucas Vituri Santarosa** <sup>1,\*</sup> · [ORCID 0000-0001-7180-7715](https://orcid.org/0000-0001-7180-7715)
+* **Cesar de Oliveira Ferreira Silva** <sup>2</sup> · [ORCID 0000-0002-5152-6497](https://orcid.org/0000-0002-5152-6497)
+
+<sup>1</sup> Escuela de Agronomía, Facultad de Ciencias Agronómicas y de los Alimentos, Pontificia Universidad Católica de Valparaíso, Quillota, Chile
+<sup>2</sup> Centro de Estudos Ambientais (CEA), Universidade Estadual Paulista (UNESP), Rio Claro, São Paulo, Brazil
+<sup>\*</sup> Corresponding author: lucas.vituri@pucv.cl
 
 ---
 
 ## Overview
 
-This repository contains the source code and operational workflow developed for the study **"Assessment of structural water stress in semi-arid agricultural basins using high-resolution evapotranspiration mapping"**, accepted for publication in *Ecohydrology & Hydrobiology* (2026).
+This repository contains the source code and operational workflow developed for the study **"Assessment of structural water stress in semi-arid agricultural basins using high-resolution evapotranspiration mapping"**, published in *Ecohydrology & Hydrobiology* (2026), https://doi.org/10.1016/j.ecohyd.2026.100843.
 
 We present an automated, cloud-based framework (Google Earth Engine) to estimate **Actual Evapotranspiration ($ET_{a}$)** at high spatial resolution (30 m) in the Aconcagua River Basin, Chile. The model integrates **Landsat 8/9** imagery with **ERA5-Land** meteorological reanalysis data to overcome the scarcity of ground-based telemetry stations.
 
 ### Key Highlights
-*	Stable calibration strategy ensures temporal consistency for basin-scale evapotranspiration estimation
-*	Remote sensing data integration enabling automated cloud-based evapotranspiration monitoring
-*	High-resolution mapping exposes the basin-scale structural decoupling between supply and demand.
+* Stable calibration ensures temporal consistency for basin-scale ET estimation.
+* Automated cloud-based workflow enables high-resolution ET monitoring.
+* Spatial mapping exposes the structural decoupling between supply and demand.
 
 ---
 
@@ -63,8 +68,8 @@ Clouds are masked using the Landsat `QA_PIXEL` band (dilated cloud, cloud, cloud
 | `SAFER_ACONCAGUA_DEMO_0_1.ipynb` | Main notebook: parameters, pre-processing, SAFER processing, export and visualization |
 | `requirements.txt` | Python dependencies |
 | `CITATION.cff` | Machine-readable citation metadata (GitHub "Cite this repository") |
-| `CITATION.bib` | BibTeX entries, ready to import into Zotero/Mendeley |
-| `.zenodo.json` | Metadata used by Zenodo when archiving a release |
+| `CITATION.bib` | BibTeX entries for the article, the dataset and the code, ready to import into Zotero/Mendeley |
+| `.zenodo.json` | Metadata Zenodo reads if this repository is archived as a software release |
 | `LICENSE` | MIT license |
 
 ---
@@ -98,17 +103,29 @@ All rasters are 32-bit float, 30 m, clipped to the basin boundary, in the Landsa
 
 ## How to cite
 
-Please cite **both** the software/dataset and the associated article.
+This work comprises three citable objects. Please cite the **article**, and also the **dataset** or the **code** where you use them directly.
 
-**Software / dataset (Zenodo):**
+**1. Peer-reviewed article**
 
-> Santarosa, L. V., & Silva, C. O. F. (2026). *High-resolution evapotranspiration dataset for the Aconcagua River Basin (SAFER / Landsat / ERA5-Land)* (Version 0.1.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.18603159
+> Vituri Santarosa, L., & Silva, C. O. F. (2026). Assessment of structural water stress in semi-arid agricultural basins using high-resolution evapotranspiration mapping. *Ecohydrology & Hydrobiology*, 26, 100843. https://doi.org/10.1016/j.ecohyd.2026.100843
 
-**Associated article:**
+**2. ET<sub>a</sub> dataset (Zenodo, CC BY 4.0)**
 
-> Santarosa, L. V., & Silva, C. O. F. (2026). Assessment of structural water stress in semi-arid agricultural basins using high-resolution evapotranspiration mapping. *Ecohydrology & Hydrobiology*. (In press; volume, pages and DOI to be added on publication.)
+> Vituri Santarosa, L., & Silva, C. O. F. (2026). *High-resolution actual evapotranspiration dataset for the Aconcagua River Basin, Chile (SAFER / Landsat / ERA5-Land, 2014–2024)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18603158
 
-BibTeX entries for both are provided in [`CITATION.bib`](CITATION.bib) — download the file and use **File → Import…** in Zotero, or drag it into your library. GitHub's *Cite this repository* button (powered by [`CITATION.cff`](CITATION.cff)) also exports APA and BibTeX directly.
+**3. Source code (this repository, MIT)**
+
+> Vituri Santarosa, L., & Silva, C. O. F. (2026). *HRes_ETa_SAFER_Aconcagua: a Google Earth Engine workflow for high-resolution SAFER evapotranspiration mapping* (Version 0.1.0) [Software]. https://github.com/lvsantarosa/HRes_ETa_SAFER_Aconcagua
+
+BibTeX entries for all three are provided in [`CITATION.bib`](CITATION.bib) — download the file and use **File → Import…** in Zotero, or drag it into your library. GitHub's *Cite this repository* button (powered by [`CITATION.cff`](CITATION.cff)) also exports APA and BibTeX directly.
+
+---
+
+## Data and code availability
+
+The ET<sub>a</sub> dataset (daily 2022–2024; monthly and annual 2014–2024; 30 m GeoTIFF) is archived on Zenodo under CC BY 4.0 at https://doi.org/10.5281/zenodo.18603158. The Google Earth Engine workflow that generated it is openly available in this repository under the MIT licence.
+
+**Which DOI to cite.** https://doi.org/10.5281/zenodo.18603158 is the *concept* DOI: it always resolves to the most recent version of the dataset, and is the one to cite in publications. https://doi.org/10.5281/zenodo.18603159 is the *version* DOI of v0.1.0 specifically; cite it only when a result must be tied to that exact release. Reprocessed data are published as new versions, which receive their own version DOI while the concept DOI follows the latest.
 
 ---
 
@@ -121,10 +138,16 @@ BibTeX entries for both are provided in [`CITATION.bib`](CITATION.bib) — downl
 
 ---
 
+## Funding
+
+This research was funded by Pontificia Universidad Católica de Valparaíso — VINCI grant number 044.762/2026.
+
+---
+
 ## License
 
 Released under the [MIT License](LICENSE). Landsat and ERA5-Land source data remain subject to the terms of their respective providers (USGS/NASA and ECMWF/Copernicus).
 
 ## Contact
 
-Lucas Vituri Santarosa — Water Resources and Geotechnology Laboratory, Pontificia Universidad Católica de Valparaíso (PUCV).
+Lucas Vituri Santarosa — Escuela de Agronomía, Facultad de Ciencias Agronómicas y de los Alimentos, Pontificia Universidad Católica de Valparaíso, Quillota, Chile · lucas.vituri@pucv.cl
