@@ -86,4 +86,7 @@ preferred-citation:
       orcid: "https://orcid.org/0000-0002-5152-6497"
   journal: "Ecohydrology & Hydrobiology"
   year: 2026
-  notes: "In press. Accepted manuscript (ECOHYD-D-26-00096R1); volume, pages and DOI pending."
+  volume: 26
+  start: 100843
+  doi: 10.1016/j.ecohyd.2026.100843
+  url: "https://doi.org/10.1016/j.ecohyd.2026.100843"

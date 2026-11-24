@@ -1,5 +1,6 @@
 # High-resolution evapotranspiration dataset for the Aconcagua river basin
 
+[![Article](https://img.shields.io/badge/Article-10.1016%2Fj.ecohyd.2026.100843-B31B1B.svg)](https://doi.org/10.1016/j.ecohyd.2026.100843)
 [![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18603158.svg)](https://doi.org/10.5281/zenodo.18603158)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lvsantarosa/HRes_ETa_SAFER_Aconcagua/blob/main/SAFER_ACONCAGUA_DEMO_0_1.ipynb)
@@ -16,7 +17,7 @@
 
 ## Overview
 
-This repository contains the source code and operational workflow developed for the study **"Assessment of structural water stress in semi-arid agricultural basins using high-resolution evapotranspiration mapping"**, accepted for publication in *Ecohydrology & Hydrobiology* (2026).
+This repository contains the source code and operational workflow developed for the study **"Assessment of structural water stress in semi-arid agricultural basins using high-resolution evapotranspiration mapping"**, published in *Ecohydrology & Hydrobiology* (2026), https://doi.org/10.1016/j.ecohyd.2026.100843.
 
 We present an automated, cloud-based framework (Google Earth Engine) to estimate **Actual Evapotranspiration ($ET_{a}$)** at high spatial resolution (30 m) in the Aconcagua River Basin, Chile. The model integrates **Landsat 8/9** imagery with **ERA5-Land** meteorological reanalysis data to overcome the scarcity of ground-based telemetry stations.
 
@@ -106,7 +107,7 @@ This work comprises three citable objects. Please cite the **article**, and also
 
 **1. Peer-reviewed article**
 
-> Vituri Santarosa, L., & Silva, C. O. F. (2026). Assessment of structural water stress in semi-arid agricultural basins using high-resolution evapotranspiration mapping. *Ecohydrology & Hydrobiology*. (In press; volume, pages and DOI to be added on publication.)
+> Vituri Santarosa, L., & Silva, C. O. F. (2026). Assessment of structural water stress in semi-arid agricultural basins using high-resolution evapotranspiration mapping. *Ecohydrology & Hydrobiology*, 26, 100843. https://doi.org/10.1016/j.ecohyd.2026.100843
 
 **2. ET<sub>a</sub> dataset (Zenodo, CC BY 4.0)**
 
@@ -134,6 +135,12 @@ The ET<sub>a</sub> dataset (daily 2022–2024; monthly and annual 2014–2024; 3
 * Allen, R. G., Pereira, L. S., Raes, D., & Smith, M. (1998). *Crop evapotranspiration: Guidelines for computing crop water requirements*. FAO Irrigation and Drainage Paper 56. FAO, Rome.
 * Muñoz-Sabater, J., Dutra, E., Agustí-Panareda, A., et al. (2021). ERA5-Land: A state-of-the-art global reanalysis dataset for land applications. *Earth System Science Data*, 13(9), 4349–4383. https://doi.org/10.5194/essd-13-4349-2021
 * Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., & Moore, R. (2017). Google Earth Engine: Planetary-scale geospatial analysis for everyone. *Remote Sensing of Environment*, 202, 18–27. https://doi.org/10.1016/j.rse.2017.06.031
+
+---
+
+## Funding
+
+This research was funded by Pontificia Universidad Católica de Valparaíso — VINCI grant number 044.762/2026.
 
 ---
 
