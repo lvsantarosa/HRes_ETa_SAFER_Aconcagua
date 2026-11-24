@@ -107,15 +107,15 @@ This work comprises three citable objects. Please cite the **article**, and also
 
 **1. Peer-reviewed article**
 
-> Vituri Santarosa, L., & Silva, C. O. F. (2026). Assessment of structural water stress in semi-arid agricultural basins using high-resolution evapotranspiration mapping. *Ecohydrology & Hydrobiology*, 26, 100843. https://doi.org/10.1016/j.ecohyd.2026.100843
+> Santarosa, L.V., & Silva, C. O. F. (2026). Assessment of structural water stress in semi-arid agricultural basins using high-resolution evapotranspiration mapping. *Ecohydrology & Hydrobiology*, 26, 100843. https://doi.org/10.1016/j.ecohyd.2026.100843
 
 **2. ET<sub>a</sub> dataset (Zenodo, CC BY 4.0)**
 
-> Vituri Santarosa, L., & Silva, C. O. F. (2026). *High-resolution actual evapotranspiration dataset for the Aconcagua River Basin, Chile (SAFER / Landsat / ERA5-Land, 2014–2024)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18603158
+> Santarosa, L.V., & Silva, C. O. F. (2026). *High-resolution actual evapotranspiration dataset for the Aconcagua River Basin, Chile (SAFER / Landsat / ERA5-Land, 2014–2024)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18603158
 
 **3. Source code (this repository, MIT)**
 
-> Vituri Santarosa, L., & Silva, C. O. F. (2026). *HRes_ETa_SAFER_Aconcagua: a Google Earth Engine workflow for high-resolution SAFER evapotranspiration mapping* (Version 0.1.0) [Software]. https://github.com/lvsantarosa/HRes_ETa_SAFER_Aconcagua
+> Santarosa, L.V., & Silva, C. O. F. (2026). *HRes_ETa_SAFER_Aconcagua: a Google Earth Engine workflow for high-resolution SAFER evapotranspiration mapping* (Version 0.1.0) [Software]. https://github.com/lvsantarosa/HRes_ETa_SAFER_Aconcagua
 
 BibTeX entries for all three are provided in [`CITATION.bib`](CITATION.bib) — download the file and use **File → Import…** in Zotero, or drag it into your library. GitHub's *Cite this repository* button (powered by [`CITATION.cff`](CITATION.cff)) also exports APA and BibTeX directly.
 
